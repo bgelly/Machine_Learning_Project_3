@@ -1,1 +1,81 @@
-0,Id,,1,MSSubClass,Nominal,Type of dwelling2,MSZoning,Nominal,General zoning class3,LotFrontage,Continuous,Linear feet of street4,LotArea,Continuous,Lot size (sq ft)5,Street,Binomial/Nominal,Road type6,Alley,Nominal,Alley access type7,LotShape,Ordinal or Nominal?,Property shape8,LandContour,Nominal,Property flatness9,Utilities,Ordinal,Available utilities10,LotConfig,Nominal,Lot configuration11,LandSlope,Ordinal,Slope of property12,Neighborhood,Nominal,Physical location13,Condition1,Nominal,Proximity to various conditions14,Condition2,Nominal,Proximity to various conditions15,BldgType,Nominal,Type of building16,HouseStyle,Nominal,Style of dwelling,17,OverallQual,Ordinal,Overall material/finish,18,OverallCond,Ordinal,Overall condition of house,19,YearBuilt,Discrete,Original construction date,20,YearRemodAdd,Discrete,Remodel date," = Construction date if same as construction date, "21,RoofStyle,Nominal,Roof type,22,RoofMatl,Nominal,Roof material,23,Exterior1st,Nominal,Exterior covering of house,24,Exterior2nd,Nominal,2nd Exterior covering of house,25,MasVnrType,Nominal,d,26,MasVnrArea,Continuous,Masonry veneer area,27,ExterQual,Ordinal,Exterior material quality,28,ExterCond,Ordinal,Current condition of exterior material,29,Foundation,Nominal,Type of foundation,30,BsmtQual,Ordinal,Height of basement,31,BsmtCond,Ordinal,Condition of basement,32,BsmtExposure,Ordinal,Walkout/garden wall level33,BsmtFinType1,Ordinal,Basement finished area34,BsmtFinSF1,Continuous,Type 1 finished square feet35,BsmtFinType2,Ordinal,Rating of basement finished area (if multiple types)36,BsmtFinSF2,Continuous,Type 2 finished square feet37,BsmtUnfSF,Continuous,Unfinished square feet of basement area38,TotalBsmtSF,Continuous,Total square feet of basement39,Heating,Nominal,Type of heating40,HeatingQC,Ordinal,Heating quality and condition41,CentralAir,Binomial/Nominal,Central AC42,Electrical,Ordinal,Electric systems43,1stFlrSF,Continuous,1st floor square feet44,2ndFlrSF,Continuous,2nd floor square feet45,LowQualFinSF,Continuous,Low quality finished square feet46,GrLivArea,Continuous,Above grade living area (sq ft)47,BsmtFullBath,Discrete,Basement full bathrooms48,BsmtHalfBath,Discrete,Basement half bathrooms49,FullBath,Discrete,Full bathrooms above grade50,HalfBath,Discrete,Half bathrooms above grade51,BedroomAbvGr,Discrete,Bedrooms above grade (not including basement bedrooms)52,KitchenAbvGr,Discrete,Kitchens above grade53,KitchenQual,Ordinal,Kitchen quality54,TotRmsAbvGrd,Discrete,Total rooms above grade55,Functional,Ordinal,Home functionality (assumes typical)56,Fireplaces,Discrete,Number of fireplaces57,FireplaceQu,Ordinal,Fireplace quality58,GarageType,Nominal,Garage location59,GarageYrBlt,Discrete,Year garage was built60,GarageFinish,Ordinal,Interior finish of garage61,GarageCars,Discrete,Garage capacity (cars)62,GarageArea,Continuous,Size of garage (sq feet)63,GarageQual,Ordinal,Garage quality64,GarageCond,Ordinal,Garage condition65,PavedDrive,Ordinal,Paved driveway66,WoodDeckSF,Continuous,Wood deck area (sq feet)67,OpenPorchSF,Continuous,Open porch area (sq feet)68,EnclosedPorch,Continuous,Enclosed porch area (sq feet)69,3SsnPorch,Continuous,3 season porch area (sq feet)70,ScreenPorch,Continuous,Screen porch area71,PoolArea,Continuous,Pool area (sq feet)72,PoolQC,Ordinal,Pool quality73,Fence,Ordinal,Fence quality74,MiscFeature,Nominal,Misc Features75,MiscVal,Continuous,$Value of miscelllaneous features76,MoSold,Discrete,Month sold77,YrSold,Discrete,Year sold78,SaleType,Nominal,Type of sale79,SaleCondition,Nominal,Condition of sale80,SalePrice,Continuous,Sale price $$
+0,Id,,,
+1,MSSubClass,Nominal,Type of dwelling,
+2,MSZoning,Nominal,General zoning class,
+3,LotFrontage,Continuous,Linear feet of street,
+4,LotArea,Continuous,Lot size (sq ft),
+5,Street,Binomial/Nominal,Road type,
+6,Alley,Nominal,Alley access type,
+7,LotShape,Ordinal or Nominal?,Property shape,
+8,LandContour,Nominal,Property flatness,
+9,Utilities,Ordinal,Available utilities,
+10,LotConfig,Nominal,Lot configuration,
+11,LandSlope,Ordinal,Slope of property,
+12,Neighborhood,Nominal,Physical location,
+13,Condition1,Nominal,Proximity to various conditions,
+14,Condition2,Nominal,Proximity to various conditions,
+15,BldgType,Nominal,Type of building,
+16,HouseStyle,Nominal,Style of dwelling,
+17,OverallQual,Ordinal,Overall material/finish,
+18,OverallCond,Ordinal,Overall condition of house,
+19,YearBuilt,Discrete,Original construction date,
+20,YearRemodAdd,Discrete,Remodel date," = Construction date if same as construction date, "
+21,RoofStyle,Nominal,Roof type,
+22,RoofMatl,Nominal,Roof material,
+23,Exterior1st,Nominal,Exterior covering of house,
+24,Exterior2nd,Nominal,2nd Exterior covering of house,
+25,MasVnrType,Nominal,d,
+26,MasVnrArea,Continuous,Masonry veneer area,
+27,ExterQual,Ordinal,Exterior material quality,
+28,ExterCond,Ordinal,Current condition of exterior material,
+29,Foundation,Nominal,Type of foundation,
+30,BsmtQual,Ordinal,Height of basement,
+31,BsmtCond,Ordinal,Condition of basement,
+32,BsmtExposure,Ordinal,Walkout/garden wall level,
+33,BsmtFinType1,Ordinal,Basement finished area,
+34,BsmtFinSF1,Continuous,Type 1 finished square feet,
+35,BsmtFinType2,Ordinal,Rating of basement finished area (if multiple types),
+36,BsmtFinSF2,Continuous,Type 2 finished square feet,
+37,BsmtUnfSF,Continuous,Unfinished square feet of basement area,
+38,TotalBsmtSF,Continuous,Total square feet of basement,
+39,Heating,Nominal,Type of heating,
+40,HeatingQC,Ordinal,Heating quality and condition,
+41,CentralAir,Binomial/Nominal,Central AC,
+42,Electrical,Ordinal,Electric systems,
+43,1stFlrSF,Continuous,1st floor square feet,
+44,2ndFlrSF,Continuous,2nd floor square feet,
+45,LowQualFinSF,Continuous,Low quality finished square feet,
+46,GrLivArea,Continuous,Above grade living area (sq ft),
+47,BsmtFullBath,Discrete,Basement full bathrooms,
+48,BsmtHalfBath,Discrete,Basement half bathrooms,
+49,FullBath,Discrete,Full bathrooms above grade,
+50,HalfBath,Discrete,Half bathrooms above grade,
+51,BedroomAbvGr,Discrete,Bedrooms above grade (not including basement bedrooms),
+52,KitchenAbvGr,Discrete,Kitchens above grade,
+53,KitchenQual,Ordinal,Kitchen quality,
+54,TotRmsAbvGrd,Discrete,Total rooms above grade,
+55,Functional,Ordinal,Home functionality (assumes typical),
+56,Fireplaces,Discrete,Number of fireplaces,
+57,FireplaceQu,Ordinal,Fireplace quality,
+58,GarageType,Nominal,Garage location,
+59,GarageYrBlt,Discrete,Year garage was built,
+60,GarageFinish,Ordinal,Interior finish of garage,
+61,GarageCars,Discrete,Garage capacity (cars),
+62,GarageArea,Continuous,Size of garage (sq feet),
+63,GarageQual,Ordinal,Garage quality,
+64,GarageCond,Ordinal,Garage condition,
+65,PavedDrive,Ordinal,Paved driveway,
+66,WoodDeckSF,Continuous,Wood deck area (sq feet),
+67,OpenPorchSF,Continuous,Open porch area (sq feet),
+68,EnclosedPorch,Continuous,Enclosed porch area (sq feet),
+69,3SsnPorch,Continuous,3 season porch area (sq feet),
+70,ScreenPorch,Continuous,Screen porch area,
+71,PoolArea,Continuous,Pool area (sq feet),
+72,PoolQC,Ordinal,Pool quality,
+73,Fence,Ordinal,Fence quality,
+74,MiscFeature,Nominal,Misc Features,
+75,MiscVal,Continuous,$Value of miscelllaneous features,
+76,MoSold,Discrete,Month sold,
+77,YrSold,Discrete,Year sold,
+78,SaleType,Nominal,Type of sale,
+79,SaleCondition,Nominal,Condition of sale,
+80,SalePrice,Continuous,Sale price $$,
